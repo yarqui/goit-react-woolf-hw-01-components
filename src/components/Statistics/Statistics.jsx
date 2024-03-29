@@ -1,4 +1,3 @@
-import React from 'react';
 import StatsItem from '../StatsItem/StatsItem';
 import s from './Statistics.module.css';
 

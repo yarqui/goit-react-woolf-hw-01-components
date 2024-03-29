@@ -1,6 +1,6 @@
-import React from 'react';
-import s from './StatsItem.module.css';
 import { getRandomHexColor } from 'components/utils/utils';
+import s from './StatsItem.module.css';
+
 const StatsItem = ({ stat: { label, percentage } }) => {
   return (
     <li style={{ backgroundColor: getRandomHexColor() }} className={s.statItem}>
