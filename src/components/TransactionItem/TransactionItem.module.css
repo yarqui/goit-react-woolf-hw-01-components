@@ -1,0 +1,11 @@
+.transactionRow {
+  &:nth-child(odd) {
+    background: #e7edf0;
+  }
+}
+
+.transactionCell {
+  height: 50px;
+  width: 250px;
+  text-align: center;
+}

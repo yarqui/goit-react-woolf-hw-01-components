@@ -1,0 +1,21 @@
+.transactionHistory {
+  margin: 10px auto;
+  width: 750px;
+
+  table-layout: fixed;
+  border-spacing: 1px;
+  border-radius: 5px;
+  box-shadow: 0px 1px 5px -2px rgba(101, 101, 101, 0.75);
+}
+
+.transactionHead {
+  height: 50px;
+  width: 250px;
+  padding: 15px;
+
+  text-transform: uppercase;
+  font-size: 12px;
+
+  color: white;
+  background: #1db1c1;
+}
